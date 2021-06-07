@@ -147,7 +147,7 @@ h3 {
   color: #266035;
 }
 h1 {
-  background-color: #fbfffb;
+  color: #fbfffb;
   font-size: 5rem;
 }
 h2 {
@@ -157,5 +157,65 @@ h3 {
   fonts-size: 3.5rem;
 }
 button {
+  background-color: #266035;
+  padding: 3% 4%;
+  font-size: 1.8rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fbfffb;
+}
+
+/* Header Section Styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Top Section */
+
+#top {
+  height: 90vh;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#top button {
+  background-color: #fbfffb;
+  border: solid 1px #266035;
+  color: #166035;
+  margin-top: 5%;
+  transition: 0.2s;
+}
+
+#top button:hover {
+  color: #fbfffb;
   background-color: #266035;
 }
